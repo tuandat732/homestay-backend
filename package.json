@@ -1,0 +1,31 @@
+{
+  "name": "stay_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "licenses": "MIT",
+  "scripts": {
+    "dev:debug": "nodemon --inspect index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "react-day-picker": "^7.3.2",
+    "react-helmet": "^5.2.1",
+    "uuid": "^3.3.3"
+  }
+}
